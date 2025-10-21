@@ -5,7 +5,7 @@ const path = require('path');
 const fs = require('fs');
 const sharp = require('sharp');
 
-const token = process.env.TELEGRAM_BOT_TOKEN;
+const token = process.env.TELEGRAM_BOT_TOKEN;8425440819:AAHcS5ZlM_fsN9hN7fEaA7d9UzHTOUeADGk
 const ADMIN_ID = parseInt(process.env.ADMIN_ID);
 
 const bot = new TelegramBot(token, { polling: true });
